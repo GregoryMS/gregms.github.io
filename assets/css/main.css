@@ -5,39 +5,79 @@
 		background-color: #455166; 
       	font-family: 'Courier New';
 
-      }
+}
 
-.header {
-			font-size: 20px;
-			color: white;
+.main {
+
+
+
+}
+
+#navbarmenu {
+			border-radius: 8px;
+			border-style: solid;
+			border-width: 2px;
+			border-color: white;
+			background-color:grey;
 			
 
-		}
+}
+
+
+#navbarheader {
+			font-size: 20px;
+			color: white;
+			border-color:black;
+			border-radius: 25px;
+			border-style: solid;
+			text-align: center;
+			background-color: #929599;
+}
+
+
+.header {
+		
+		position: absolute;
+		
+}
+
+
 .h2{
 	font-size: 15px;
 	color:white;
 	text-decoration: underline;
 
-   }
-
-.linklist{
+}
 
 
+/** Links **/
+#linkslist {
+			list-style-type: none;
+			color:white;
+		 	position: absolute;
+		 	position: center;
+		 	text-align: left;
 
-		 }
 
+
+}
+
+a#linklist{color:white; text-decoration:none;}
+a:hover#linklist{color:#d7e0f2;}
+
+
+/* Footer*/
 .footer{
-		color:#f2f2f2;
+		
+		position: absolute;
+		bottom: 0;
+		left:0;
+		right:0;
 		text-align: center;
-		margin: 20px;
+		padding: 5px 0px;
+		
 	   
-	   }
+}
 
-a:hover {color:#d7e0f2;}
-
-a {
-	color:white;
-  	text-decoration:none;
-  }
 
 

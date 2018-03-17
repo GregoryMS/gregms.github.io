@@ -1,5 +1,43 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("assets/css/font-awesome-all.css");
 
-body { background-color: #455166; }
+.body { 
+		background-color: #455166; 
+      	font-family: 'Courier New';
+
+      }
+
+.header {
+			font-size: 20px;
+			color: white;
+			
+
+		}
+.h2{
+	font-size: 15px;
+	color:white;
+	text-decoration: underline;
+
+   }
+
+.linklist{
+
+
+
+		 }
+
+.footer{
+		color:#f2f2f2;
+		text-align: center;
+		margin: 20px;
+	   
+	   }
+
+a:hover {color:#d7e0f2;}
+
+a {
+	color:white;
+  	text-decoration:none;
+  }
+
 

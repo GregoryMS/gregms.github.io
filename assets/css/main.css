@@ -7,11 +7,7 @@
 
 }
 
-.main {
-
-
-
-}
+/** Navbar **/
 
 #navbarmenu {
 			border-radius: 8px;
@@ -34,6 +30,7 @@
 			background-color: #929599;
 }
 
+div.social{margin:5% auto auto 5%;}
 
 .header {
 		
@@ -51,20 +48,25 @@
 
 
 /** Links **/
-#linkslist {
+.link {
 			list-style-type: none;
 			color:white;
-		 	position: absolute;
-		 	position: center;
-		 	text-align: left;
-
+		  	text-align: left;
 
 
 }
 
-a#linklist{color:white; text-decoration:none;}
-a:hover#linklist{color:#d7e0f2;}
+a.link{color:white; text-decoration:none;}
+a:hover#spotify{color:#1db954;}
+a:hover#soundcloud{color:#ff3300;}
+a:hover#twitter{color:#1da1f2;}
+a:hover#facebook{color:#3b5998; background-color: white; padding:1px 2px;}
+a:hover#instagram{color:#833ab4;}
+a:hover#fliker{color:#ff0084;}
+a:hover#paypal{color:#009cde;}
 
+a#camera{color:white; text-decoration: none;}
+a:hover#camera{color:#009cde;}
 
 /* Footer*/
 .footer{
